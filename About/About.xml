@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>BnC: Shut up, baby!</name>
+  <author>Bishop</author>
+  <url>https://github.com/BishopGit/bnc_shutup</url>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>
+Like making RimWorld babies?  Ever wish you could tell them "shut up! stop crying, baby!"? Now you can, with this extremely simple patch.
+
+Load this mod after Baby and Children, and they shall cry no more!
+  </description>
+</ModMetaData>

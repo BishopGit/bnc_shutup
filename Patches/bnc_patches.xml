@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Baby and Children</li>
+        </mods>
+
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/SoundDef[defName="Pawn_BabyCry"]/subSounds/li[1]/grains/li[1]/clipPath</xpath>
+                    <value>
+                        <clipPath>S_Baby/silence_is_golden</clipPath>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/SoundDef[defName="Pawn_BabyCry"]/subSounds/li[1]/grains/li[2]/clipPath</xpath>
+                    <value>
+                        <clipPath>S_Baby/silence_is_golden</clipPath>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/SoundDef[defName="Pawn_BabyCry"]/subSounds/li[1]/grains/li[3]/clipPath</xpath>
+                    <value>
+                        <clipPath>S_Baby/silence_is_golden</clipPath>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
